@@ -599,3 +599,9 @@ function tsInit8(): void {
   });
 }
 tsInit8();
+
+// sum array
+function sumArray(arr1: Array<any>, arr2: Array<any>): Array<any> {
+  const sum = arr1.concat(arr2);
+  return sum;
+}
